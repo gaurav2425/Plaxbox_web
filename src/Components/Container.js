@@ -39,12 +39,14 @@ function Container() {
           </h1>
           {/* <h1 data-aos="zoom-in">your back.</h1> */}
           <h2 data-aos="fade-up">
-            use your CRED coins to participate in games and raffles to win the
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
             <br></br>
-            most exclusive rewards and cashbacks on CRED. good luck.
+            quis nostrud exercitation ullamco laboris nisi ut
           </h2>
           {/* <h2 data-aos="zoom-in">
-            most exclusive rewards and cashbacks on CRED. good luck.
+            most exclusive rewards and cashbacks on . good luck.
           </h2> */}
         </div>
 
@@ -75,16 +77,17 @@ function Container() {
           </p>
 
           <p>
-            so we thought of creating a system that rewards its members for
-            doing good and being trustworthy. this way, trust as a virtue
-            becomes something to aspire to, just the way it should be. then we
-            went one step ahead: we built it. we know we are on the right track
-            because here you are.
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt
           </p>
 
           <p>
-            if you make it to CRED, congratulations and welcome. we have a lot
-            of things planned for you.
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit
           </p>
         </div>
       </div>

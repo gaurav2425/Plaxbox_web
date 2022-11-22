@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 .container {
-  background-color: #070707;
+  /* background-color: #070707; */
+  background-color: #f7fbcd;
   /* height: 100vh; */
   /* justify-content: center; */
   align-items: center;
@@ -14,6 +15,7 @@
 
 .container1 {
   background-color: #070707;
+  background-color: #f7fbcd;
   /* height: 100vh; */
   /* justify-content: center; */
   align-items: center;
@@ -27,7 +29,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 90px;
-  color: white;
+  color: rgb(0, 0, 0);
   letter-spacing: -10;
 }
 
