@@ -14,6 +14,10 @@ function Navbar() {
       <div className={styles.navbar_right}>
         <ul>
           <Link to="/about" className={styles.link}>
+            <li>Home</li>
+          </Link>
+
+          <Link to="/about" className={styles.link}>
             <li>About</li>
           </Link>
           <Link to="/articles" className={styles.link}>

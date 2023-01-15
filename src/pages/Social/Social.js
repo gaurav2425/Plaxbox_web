@@ -53,11 +53,13 @@ function Social() {
             </span>
           </Animator>
         </ScrollPage>
+
         <ScrollPage page={2}>
           <Animator animation={ZoomInScrollOut}>
             <span style={{ fontSize: "40px" }}>I'm FadeUpScrollOut ✨</span>
           </Animator>
         </ScrollPage>
+
         <ScrollPage page={3}>
           <Animator animation={FadeUp}>
             <span style={{ fontSize: "40px" }}>I'm FadeUp ⛅️</span>

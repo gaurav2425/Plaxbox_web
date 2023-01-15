@@ -17,6 +17,7 @@
 .container1 {
   background-color: #070707;
   /* background-color: #f7fbcd; */
+  background:url('../assets/bg1.png');
   /* height: 100vh; */
   /* justify-content: center; */
   align-items: center;
@@ -30,13 +31,13 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 90px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   letter-spacing: -10;
 }
 
 .bar {
   height: 50px;
-  background-color: rgb(32, 31, 31);
+  background-color: rgb(255, 255, 255);
   width: 100vw;
   text-align: center;
   justify-content: center;
@@ -48,15 +49,15 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
 
   /* background-color: rgb(15, 72, 226); */
 }
 .container1 h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   color: rgb(51, 49, 49);
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .button_container:hover {
@@ -80,7 +81,7 @@
   background-color: white;
   /* padding: 10px; */
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 10px;
 }
 .quote_container {
