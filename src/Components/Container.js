@@ -35,15 +35,22 @@ function Container() {
       <div className={styles.container2}>
         <div className={styles.container2_left}>
           <h1 data-aos="fade-up">
-            we’ve got <br></br> your back.{" "}
+            Stay Connected <br></br> Stay Social
           </h1>
           {/* <h1 data-aos="zoom-in">your back.</h1> */}
           <h2 data-aos="fade-up">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam,
+            Plaxbox allows users to connect with like-minded individuals, join
+            social clubs and groups, and attend virtual events and gatherings.
+            The app would be designed to bring people together around common
+            interests, hobbies, and activities, and provide a platform for them
+            to socialize, connect, and engage with each other remotely.
             <br></br>
-            quis nostrud exercitation ullamco laboris nisi ut
+            Plaxbox would be a great way for people to stay connected and
+            socialize with others remotely, especially during times when
+            in-person gatherings are not possible. It would provide a platform
+            for people to connect with like-minded individuals, join social
+            clubs and groups, and attend virtual events and gatherings, all
+            based on their interests and hobbies.
           </h2>
           {/* <h2 data-aos="zoom-in">
             most exclusive rewards and cashbacks on . good luck.
