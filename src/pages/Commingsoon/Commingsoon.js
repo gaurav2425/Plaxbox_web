@@ -11,7 +11,7 @@ function Commingsoon() {
             src={require("../../assets/comming_soon.png")}
             className={styles.logo}
           ></img>
-          <div className={styles.commingsoon_txt}>Commingsoon</div>
+          <div className={styles.commingsoon_txt}>Comming soon</div>
         </div>
 
         <div className={styles.launch_container}>
