@@ -1,0 +1,53 @@
+.commingsoon_maincontainer{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+.commingsoon_container{
+    background-color: black;
+    color: white;
+    height: 100%;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.launch_txt {
+    font-size: 25px;
+    font-family: Gilroy-Bold;
+    margin-top: 50px;
+}
+
+.logo{
+    width: 200px;
+    margin-top: 50px;
+}
+.commingsoon_txt{
+    font-family: Gilroy-Bold;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.input_container{
+    margin-top: 15px;
+}
+
+.input_container input{
+    padding: 10px;
+    width: 400px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+}
+
+.launch_container{
+    margin-top: 20px;
+}
+.input_container button{
+    padding: 12px;
+    font-family: Gilroy-Bold;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    background: red;
+    
+}

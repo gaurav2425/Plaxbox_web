@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./Container.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 function Container() {
   useEffect(() => {
@@ -22,10 +23,15 @@ function Container() {
         <h1>and Rooms</h1>
         <h2>Join Clubs and Rooms</h2>
 
-        <div className={styles.button_container} data-aos="flip-up">
-          <img src={require("../assets/logo.png")} className={styles.img}></img>
-          <h3>Download PlaxBox</h3>
-        </div>
+        <Link to="/commingsoon" className={styles.link}>
+          <div className={styles.button_container} data-aos="flip-up">
+            <img
+              src={require("../assets/logo.png")}
+              className={styles.img}
+            ></img>
+            <h3>Download PlaxBox</h3>
+          </div>
+        </Link>
 
         <div className={styles.quote_container}>
           <h1>Meet Incridible people on internet and join their club</h1>
@@ -39,18 +45,17 @@ function Container() {
           </h1>
           {/* <h1 data-aos="zoom-in">your back.</h1> */}
           <h2 data-aos="fade-up">
-            Plaxbox allows users to connect with like-minded individuals, join
-            social clubs and groups, and attend virtual events and gatherings.
-            The app would be designed to bring people together around common
-            interests, hobbies, and activities, and provide a platform for them
-            to socialize, connect, and engage with each other remotely.
-            <br></br>
-            Plaxbox would be a great way for people to stay connected and
-            socialize with others remotely, especially during times when
-            in-person gatherings are not possible. It would provide a platform
-            for people to connect with like-minded individuals, join social
-            clubs and groups, and attend virtual events and gatherings, all
-            based on their interests and hobbies.
+            Clubs are virtual spaces within a chat application where users can
+            gather to discuss a particular topic or interest. These clubs can be
+            created by users or by the chat application itself, and they
+            typically have a specific theme or focus. For example, a club might
+            be dedicated to discussing a particular hobby, political issue, or
+            entertainment genre. Users can join clubs that interest them and
+            participate in conversations with other members. Rooms, on the other
+            hand, are virtual spaces within a club or chat application where
+            users can have real-time conversations with each other. Rooms can be
+            created by users or by the chat application, and they can be public
+            or private.
           </h2>
           {/* <h2 data-aos="zoom-in">
             most exclusive rewards and cashbacks on . good luck.
@@ -76,25 +81,30 @@ function Container() {
         </div>
         <div className={styles.container5right}>
           <p>
-            trust as a virtue has consistently played an essential role in every
-            great human achievement. and consistently, its importance has been
-            overlooked. not just by individuals, but by entire societies. we
-            felt it was time someone gave it the spotlight it deserves.
-            especially for the ones who live by this virtue: the trustworthy
+            Clubs are virtual spaces within a chat application where users can
+            gather to discuss a particular topic or interest. These clubs can be
+            created by users or by the chat application itself, and they
+            typically have a specific theme or focus. For example, a club might
+            be dedicated to discussing a particular hobby, political issue, or
+            entertainment genre. Users can join clubs that interest them and
+            participate in conversations with other members.
           </p>
-
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt
+            Rooms, on the other hand, are virtual spaces within a club or chat
+            application where users can have real-time conversations with each
+            other. Rooms can be created by users or by the chat application, and
+            they can be public or private. Public rooms are open to all members
+            of the club or chat application, while private rooms are limited to
+            a specific group of users. Users can join rooms that interest them
+            and participate in text-based or voice-based conversations with
+            other members
           </p>
-
           <p>
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit
+            Both clubs and rooms provide users with opportunities to connect
+            with others who share their interests and engage in conversations in
+            a structured and organized way. They can be a great way to build
+            communities within a larger chat application, and they can help
+            users to discover new topics, ideas, and perspectives.
           </p>
         </div>
       </div>

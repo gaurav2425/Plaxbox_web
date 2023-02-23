@@ -10,6 +10,7 @@
   flex-direction: column;
   padding-top: 50px;
   overflow-x: hidden;
+  /* font-family: Gilroy-Bold; */
 }
 
 .container h1 {
@@ -18,6 +19,7 @@
   font-weight: 600;
   font-size: 35px;
   /* width:60%; */
+  font-family: Gilroy-Bold;
 }
 
 .container h2 {
@@ -25,11 +27,13 @@
   font-weight: 600;
   font-size: 25px;
   margin-top: 20px;
+  font-family: Gilroy-Bold;
 }
 .container button {
   padding: 15px;
   border: none;
   font-family: "Poppins", sans-serif;
+  font-family: Gilroy-Bold;
   font-weight: 600;
   font-size: 15px;
   margin-top: 20px;
@@ -42,6 +46,7 @@
   width: 50%;
   text-align: center;
   margin-top: 15px;
+  font-family: Gilroy-Bold;
 }
 
 .image {
