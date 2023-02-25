@@ -8,17 +8,13 @@
   border-radius: 100px;
 }
 
-@-webkit-keyframes loader_image {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
+
 
 .loader_image {
-  -webkit-animation: rotating 2s linear infinite;
+  animation: infinite;
+  animation-name: rotate;
+  animation-duration: 2s;
+ 
 }
 
 .App_loader {
@@ -27,4 +23,22 @@
   align-items: center;
   display: flex;
   height: 100vh;
+ 
+
 }
+
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+

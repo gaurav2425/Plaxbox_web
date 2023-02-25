@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import MobileScroll from "../Components/MobileScroll/MobileScroll";
 import LastContainer from "../Components/LastContainer";
 import Footer from "../Components/Footer";
+import styles from "../pages/Home.module.css";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -11,7 +12,7 @@ function Home() {
     const timer = setTimeout(() => {
       console.log("This will run after 1 second!");
       setLoading(false);
-    }, 1000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
   return (
@@ -25,7 +26,7 @@ function Home() {
         </div>
       ) : (
         <div>
-          {/* <Navbar></Navbar> */}
+          <Navbar></Navbar>
           <Container></Container>
           <MobileScroll></MobileScroll>
           <LastContainer></LastContainer>

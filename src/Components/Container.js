@@ -23,7 +23,11 @@ function Container() {
         <h1>and Rooms</h1>
         <h2>Join Clubs and Rooms</h2>
 
-        <Link to="/commingsoon" className={styles.link}>
+        <Link
+          to="/commingsoon"
+          className={styles.link}
+          style={{ color: "black", textDecoration: "none" }}
+        >
           <div className={styles.button_container} data-aos="flip-up">
             <img
               src={require("../assets/logo.png")}

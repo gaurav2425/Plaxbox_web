@@ -16,7 +16,7 @@ function Articles() {
 
   return (
     <div className={styles.articles_page}>
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       <div className={styles.text_container}>
         <h1 className={styles.text1} data-aos="fade-up">
           PlaxBox and Articles
