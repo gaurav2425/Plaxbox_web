@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
+.picker_scroller{
+    transform: translateZ(-10px) rotateX(90deg);
+}
+
+.container{
+    background-color: black;
+}
+
+.container1{
+    background-color: rgb(212, 61, 61);
+
+
+    width: 500px;
+    top: 100px;
+    position: absolute;
+    height: 1500px;
+    background:  rgba(0, 0, 0, 0.5) url("https://cdn.pixabay.com/photo/2015/03/08/17/25/musician-664432_960_720.jpg");
+    
+}
+
+.txt{
+    /* font-family: "Poppins", sans-serif;
+     */
+     font-family: inherit;
+    font-weight: 800;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 5px;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}

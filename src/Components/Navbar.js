@@ -13,7 +13,7 @@ function Navbar() {
 
       <div className={styles.navbar_right}>
         <ul>
-          <Link to="/about" className={styles.link}>
+          <Link to="/" className={styles.link}>
             <li>Home</li>
           </Link>
 
