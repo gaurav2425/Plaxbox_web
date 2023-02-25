@@ -1,35 +1,85 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
-.picker_scroller{
-    transform: translateZ(-10px) rotateX(90deg);
+.social_container{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+   
+}
+.social_icons{
+    display: flex;
+    flex-direction: row;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    /* background: salmon; */
+    margin-top: -10vh;
+   
 }
 
-.container{
-    background-color: black;
+.instagram_icon{
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 10px;
 }
 
-.container1{
-    background-color: rgb(212, 61, 61);
-
-
-    width: 500px;
-    top: 100px;
-    position: absolute;
-    height: 1500px;
-    background:  rgba(0, 0, 0, 0.5) url("https://cdn.pixabay.com/photo/2015/03/08/17/25/musician-664432_960_720.jpg");
-    
+.twitter_icon{
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 10px;
 }
 
-.txt{
-    /* font-family: "Poppins", sans-serif;
-     */
-     font-family: inherit;
-    font-weight: 800;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 5px;
-    color: rgb(255, 255, 255);
-    width: 100vw;
-    white-space: nowrap;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+.linkedin_icon{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
 }
+
+.instagram_icon:hover{
+    cursor: pointer;
+    animation-name: rotate;
+    position: relative;
+    animation-duration: 5s;
+}
+
+.twitter_icon:hover{
+    cursor: pointer;
+    /* top: -50px; */
+    animation-name: rotate;
+    position: relative;
+    animation-duration: 5s;
+}
+
+.linkedin_icon:hover{
+    cursor: pointer;
+    animation-name: rotate;
+    position: relative;
+    animation-duration: 5s;
+}
+
+
+@keyframes rotate {
+    0% {
+        top: 0px;
+    }
+    25%{
+        top: -50px;
+    }
+    50%{
+        top: -50px;
+        transform: rotate(0);
+    }
+    75%{
+        top: -50px;
+        transform: rotate(360deg);
+    }
+    100% {
+        top: 0px;
+    }
+  }
+

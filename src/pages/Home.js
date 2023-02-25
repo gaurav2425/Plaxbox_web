@@ -25,7 +25,7 @@ function Home() {
         </div>
       ) : (
         <div>
-          <Navbar></Navbar>
+          {/* <Navbar></Navbar> */}
           <Container></Container>
           <MobileScroll></MobileScroll>
           <LastContainer></LastContainer>

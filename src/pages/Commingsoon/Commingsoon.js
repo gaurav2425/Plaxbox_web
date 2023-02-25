@@ -4,7 +4,7 @@ import styles from "../Commingsoon/Commingsoon.module.css";
 function Commingsoon() {
   return (
     <div className={styles.commingsoon_maincontainer}>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <div className={styles.commingsoon_container}>
         <div>
           <img

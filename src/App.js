@@ -6,10 +6,12 @@ import Articles from "./pages/Article/Articles";
 import Commingsoon from "./pages/Commingsoon/Commingsoon";
 import Home from "./pages/Home";
 import Social from "./pages/Social/Social";
+import Navbar from "./Components/Navbar";
 function App() {
   console.log(window.pageYOffset);
   return (
     <Router>
+      <Navbar></Navbar>
       <Routes>
         <Route exact path="/commingsoon" element={<Commingsoon />}></Route>
         <Route exact path="/social" element={<Social />}></Route>
