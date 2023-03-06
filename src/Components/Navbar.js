@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Navbar.module.css";
+import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <div className={styles.navbar}>
@@ -27,6 +29,10 @@ function Navbar() {
             <li>Social</li>
           </Link>
         </ul>
+      </div>
+
+      <div className={styles.navbar_right_icon_container}>
+        <MenuIcon className={styles.navbar_menu_icon}></MenuIcon>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import MobileScroll from "../Components/MobileScroll/MobileScroll";
 import LastContainer from "../Components/LastContainer";
 import Footer from "../Components/Footer";
 import styles from "../pages/Home.module.css";
+// import ResNavbar from "../Components/ResNavbar";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ function Home() {
       ) : (
         <div>
           <Navbar></Navbar>
+          {/* <ResNavbar></ResNavbar> */}
           <Container></Container>
           <MobileScroll></MobileScroll>
           <LastContainer></LastContainer>
