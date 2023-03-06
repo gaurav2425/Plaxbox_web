@@ -267,15 +267,14 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .container2{
+  /* .container2{
     display: flex;
     flex-direction: column-reverse;
     height: 100vh;
   }
   .container2_left{
     margin-left: 10px;
-    /* background: saddlebrown; */
-    width: 50%;
+    width: 100%;
     
     
   }
@@ -285,8 +284,8 @@
 
 .container2_left h2{
   font-size: 10px;
-  width: 100%;
-}
+  width: 90%;
+} */
 
 
 .iphone {
@@ -304,6 +303,28 @@
   .bar{
     /* margin-top: 10px; */
   }
+
+  .container2{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+  }
+  .container2_left{
+    margin-left: 10px;
+    /* background: saddlebrown; */
+    width: 100%;
+    
+    
+  }
+.container2_left h1{
+  font-size: 50px;
+}
+
+.container2_left h2{
+  font-size: 10px;
+  width: 90%;
+}
+
   
 }
 
