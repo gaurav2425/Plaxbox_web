@@ -10,12 +10,12 @@
 
 
 
-.loader_image {
+/* .loader_image {
   animation: infinite;
   animation-name: rotate;
   animation-duration: 2s;
  
-}
+} */
 
 .App_loader {
   background-color: rgb(5, 5, 5);
@@ -29,7 +29,7 @@
 
 
 
-@keyframes rotate {
+/* @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
@@ -39,6 +39,6 @@
   100% {
     transform: rotate(0deg);
   }
-}
+} */
 
 

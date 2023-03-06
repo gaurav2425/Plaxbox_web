@@ -7,8 +7,9 @@
   width: 100%;
   height: 100%;
   background: #070707;
-  /* background: salmon; */
-  /* position: absolute; */
+  background: salmon;
+  z-index: 111111;
+  position: absolute;
   top: 0px;
   left: 0px;
   /* overflow: hidden;

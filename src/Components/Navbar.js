@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className={styles.navbar}>
+      {/* <div className={styles.layer}></div> */}
       <div className={styles.navbar_left}>
         <img src={require("../assets/logo.png")} className={styles.logo}></img>
         <Link to="/" className={styles.link}>
