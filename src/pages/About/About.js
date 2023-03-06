@@ -13,8 +13,8 @@ function About() {
         </div>
 
         <div className={styles.container1_right}>
-          {/* <h1>Find your tribe, and love them hard</h1> */}
-          {/* <p>
+          <h1>Find your tribe, and love them hard</h1>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             iaculis iaculis libero et pretium. Etiam viverra a tellus sed
             iaculis. Vivamus nisi orci, pulvinar eget bibendum vitae.Everyone
@@ -22,7 +22,7 @@ function About() {
             technology and resources empower every kind of educator — and every
             kind of student — to learn, create and define their own success.
             Let’s move the world forward.
-          </p> */}
+          </p>
         </div>
       </div>
       <div className={styles.bar_container}>
