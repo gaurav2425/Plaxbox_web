@@ -44,11 +44,13 @@ function Container() {
 
       <div className={styles.container2}>
         <div className={styles.container2_left}>
-          <h1 data-aos="fade-up">
+          <h1>
+            {/* data-aos="fade-up" */}
             Stay Connected <br></br> Stay Social
           </h1>
           {/* <h1 data-aos="zoom-in">your back.</h1> */}
-          <h2 data-aos="fade-up">
+          <h2>
+            {/* data-aos="fade-up" */}
             Clubs are virtual spaces within a chat application where users can
             gather to discuss a particular topic or interest. These clubs can be
             created by users or by the chat application itself, and they
