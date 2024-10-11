@@ -17,7 +17,7 @@ function Home() {
     return () => clearTimeout(timer);
   }, []);
   return (
-    <div className="App">
+    <div className="">
       {loading ? (
         <div className="App_loader">
           <img
@@ -28,7 +28,6 @@ function Home() {
       ) : (
         <div>
           <Navbar></Navbar>
-          {/* <ResNavbar></ResNavbar> */}
           <Container></Container>
           <MobileScroll></MobileScroll>
           <LastContainer></LastContainer>

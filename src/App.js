@@ -12,7 +12,6 @@ function App() {
   console.log(window.pageYOffset);
   return (
     <Router>
-      {/* <Navbar></Navbar> */}
       <Routes>
         <Route exact path="/commingsoon" element={<Commingsoon />}></Route>
         <Route exact path="/social" element={<Social />}></Route>

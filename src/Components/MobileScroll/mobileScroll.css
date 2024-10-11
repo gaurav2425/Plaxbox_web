@@ -4,10 +4,12 @@
   padding-bottom: 70px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: black;
   color: aliceblue;
   font-family: Gilroy-Bold;
-  
+  /* Ensure this container is not causing overflow issues */
+  /* overflow: hidden; */
 }
 
 .scroll-full-screen-wrapper {
@@ -15,7 +17,7 @@
 }
 
 .scroll-full-screen {
-  min-height: 150vh;
+  min-height: 150vh; /* Make sections taller to test scrolling */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,25 +25,31 @@
 
 .mobile-mockup-wrapper {
   width: 50%;
+
+  position: relative;
+
+  /* Ensure the wrapper allows sticky positioning */
 }
 
 .mobile-mockup {
+  align-self: flex-start;
   position: sticky;
-  top: 10%;
+  top: 10%; /* Keeps it sticky at 10% from the top of the viewport */
   transform: translateX(30%);
   width: 350px;
   height: 600px;
   box-shadow: var(--mobile-box-shadow);
   border-radius: 46px;
   padding: 16px 14px;
-  max-height: 100vh;
+  /* max-height: 100vh; */
+  z-index: 10; /* Ensure it's above other elements */
 }
 
 .mobile-mockup-screen {
   background-color: var(--mobile-bg);
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%;
-  border-radius: inherit;
+  /* border-radius: inherit; */
 }
 
 .mobile-screen-img {
@@ -51,9 +59,7 @@
 
 .screen-text {
   opacity: 0;
-  /* padding-bottom: 100px; */
   width: 80%;
-  /* background-color: antiquewhite; */
   margin-left: 10%;
 }
 
