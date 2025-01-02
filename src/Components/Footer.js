@@ -5,13 +5,13 @@ function Footer() {
     <div className={styles.footer_container}>
       <div className={styles.footer}>
         <img
-          src={require("../assets/logo.png")}
+          src={require("../assets/logo2.png")}
           className={styles.footerimg}
         ></img>
 
         <div className={styles.footer_right}>
           <div className={styles.footer_right_container1}>
-            <h1>More PlaxBox</h1>
+            <h1>More Tattle</h1>
             <ul>
               <li>Blog</li>
               <li>Knowledge Center</li>

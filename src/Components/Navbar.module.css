@@ -3,10 +3,10 @@
   width: 50px;
 }
 
-.layer{
+.layer {
   width: 100%;
   height: 100%;
-  background: #070707;
+  background: #f6f4df;
   background: salmon;
   z-index: 111111;
   position: absolute;
@@ -16,19 +16,18 @@
   overflow-y: hidden; */
   -webkit-overflow-scrolling: touch;
 }
-.navbar_right_icon_container{
+.navbar_right_icon_container {
   display: none;
 }
 .navbar {
   display: flex;
   align-items: center;
-  padding: 20px;
-  background-color: #070707;
+  padding: 10px;
+  background-color: #f6f4df;
   color: rgb(255, 255, 255);
   /* background-color: #f7fbcd; */
   /* justify-content: space-between; */
   /* width: 100%; */
- 
 }
 
 .navbar_left {
@@ -60,30 +59,42 @@
   padding-right: 15px;
   font-weight: 500;
   padding-left: 15px;
-  font-size: 20px;
-
+  font-size: 18px;
+  border-bottom: 2px solid none;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   /* font-size: 15px; */
-
+  border-bottom: 2px solid #f6f4df;
 }
 
 .navbar_right ul li:hover {
-  background-color: #1f1e1e;
+  margin-left: 50px;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
   padding: 7px;
-  border-radius: 100px;
   padding-right: 15px;
+  font-weight: 500;
   padding-left: 15px;
-  color: rgb(255, 255, 255);color: wheat;
+  font-size: 18px;
+  border-bottom: 2px solid none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 
+  /* background-color: #1f1e1e; */
+
+  /* border-radius: 100px; */
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid #61204e;
+  color: #61204e;
   cursor: pointer;
 }
 
-
-.link{
+.link {
   color: white;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 1000px) {
@@ -105,24 +116,20 @@
 @media screen and (max-width: 800px) {
   .navbar_right ul {
     display: none;
-
   }
-  .navbar_right_icon_container{
+  .navbar_right_icon_container {
     display: block;
   }
-  .navbar{
+  .navbar {
     justify-content: space-between;
   }
   .navbar_left h1 {
-   
     font-size: 20px;
-    
   }
   .navbar_left {
-    
     margin-left: 10px;
   }
-  .logo{
+  .logo {
     width: 30px;
   }
 }

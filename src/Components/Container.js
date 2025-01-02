@@ -3,6 +3,7 @@ import styles from "./Container.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import LastContainer from "./LastContainer";
 
 function Container() {
   useEffect(() => {
@@ -19,26 +20,40 @@ function Container() {
         </h1>
       </div>
       <div className={styles.container1}>
-        <h1>Revolve around clubs</h1>
-        <h1>and Rooms</h1>
-        <h2>Join Clubs and Rooms</h2>
+        <div className={styles.left_container1_content}>
+          <h1>Meet Incridible</h1>
+          <h1>people on internet</h1>
+          {/* <h2
+            style={{
+              color: "#000",
+              background: "#fff",
+              padding: 10,
+              borderRadius: 10,
+            }}
+          >
+            Hinge is built on the belief that anyone looking for love should be
+            able to find it. It’s also built on an acclaimed Nobel-Prize-winning
+            algorithm, so we can succeed in getting you out on promising dates,
+            not keeping you on the app. How we do it
+          </h2> */}
 
-        <Link
-          to="/commingsoon"
-          className={styles.link}
-          style={{ color: "black", textDecoration: "none" }}
-        >
-          <div className={styles.button_container} data-aos="flip-up">
-            <img
-              src={require("../assets/logo.png")}
-              className={styles.img}
-            ></img>
-            <h3>Download PlaxBox</h3>
+          {/* <Link
+            to="/commingsoon"
+            className={styles.link}
+            style={{ color: "black", textDecoration: "none" }}
+          >
+            <div className={styles.button_container} data-aos="flip-up">
+              <img
+                src={require("../assets/logo.png")}
+                className={styles.img}
+              ></img>
+              <h3>Download Tattle</h3>
+            </div>
+          </Link> */}
+
+          <div className={styles.quote_container}>
+            {/* <h1>Meet Incridible people on internet and join their club</h1> */}
           </div>
-        </Link>
-
-        <div className={styles.quote_container}>
-          <h1>Meet Incridible people on internet and join their club</h1>
         </div>
       </div>
 
@@ -46,7 +61,7 @@ function Container() {
         <div className={styles.container2_left}>
           <h1>
             {/* data-aos="fade-up" */}
-            Stay Connected <br></br> Stay Social
+            We’re love <br></br> scientists
           </h1>
           {/* <h1 data-aos="zoom-in">your back.</h1> */}
           <h2>
@@ -68,9 +83,16 @@ function Container() {
           </h2> */}
         </div>
 
-        <div>
+        <div
+          style={{
+            // background: "red",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "flex-end",
+          }}
+        >
           <img
-            src={require("../assets/phone.png")}
+            src={require("../assets/hand.png")}
             className={styles.iphone}
           ></img>
         </div>
@@ -80,21 +102,20 @@ function Container() {
 
       <div className={styles.container5}>
         <div className={styles.container5left}>
-          <h1>Private clubs</h1>
-
-          <h1>and Rooms</h1>
-          <button>Join Club</button>
+          <img
+            src={require("../assets/group.png")}
+            // className={styles.iphone}
+            style={{
+              width: 600,
+            }}
+          ></img>
         </div>
         <div className={styles.container5right}>
-          <p>
-            Clubs are virtual spaces within a chat application where users can
-            gather to discuss a particular topic or interest. These clubs can be
-            created by users or by the chat application itself, and they
-            typically have a specific theme or focus. For example, a club might
-            be dedicated to discussing a particular hobby, political issue, or
-            entertainment genre. Users can join clubs that interest them and
-            participate in conversations with other members.
-          </p>
+          <h1 >
+            {/* data-aos="fade-up" */}
+            Offer cafes that celebrate specific seasons or festivals
+          </h1>
+
           <p>
             Rooms, on the other hand, are virtual spaces within a club or chat
             application where users can have real-time conversations with each

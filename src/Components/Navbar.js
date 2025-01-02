@@ -8,9 +8,9 @@ function Navbar() {
     <div className={styles.navbar}>
       {/* <div className={styles.layer}></div> */}
       <div className={styles.navbar_left}>
-        <img src={require("../assets/logo.png")} className={styles.logo}></img>
+        <img src={require("../assets/logo2.png")} className={styles.logo}></img>
         <Link to="/" className={styles.link}>
-          <h1>PlaxBox</h1>
+          <h1>Tattle</h1>
         </Link>
       </div>
 
@@ -21,11 +21,11 @@ function Navbar() {
           </Link>
 
           <Link to="/about" className={styles.link}>
-            <li>About</li>
+            <li>Mission</li>
           </Link>
-          <Link to="/articles" className={styles.link}>
+          {/* <Link to="/articles" className={styles.link}>
             <li>Articles</li>
-          </Link>
+          </Link> */}
           <Link to="/social" className={styles.link}>
             <li>Social</li>
           </Link>

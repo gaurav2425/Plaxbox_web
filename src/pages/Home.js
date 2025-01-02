@@ -21,7 +21,7 @@ function Home() {
       {loading ? (
         <div className="App_loader">
           <img
-            src={require("../assets/logo.png")}
+            src={require("../assets/logo2.png")}
             className="loader_image"
           ></img>
         </div>

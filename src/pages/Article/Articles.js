@@ -19,14 +19,14 @@ function Articles() {
       <Navbar></Navbar>
       <div className={styles.text_container}>
         <h1 className={styles.text1} data-aos="fade-up">
-          PlaxBox and Articles
+          Tattle and Articles
         </h1>
         <h1 className={styles.text2} data-aos="fade-up">
           Inspiring every kind of mind.
         </h1>
         <p className={styles.textp} data-aos="fade-up">
           Everyone has their own way of learning and expressing creativity.
-          PlaxBox technology and resources empower every kind of educator — and
+          Tattle technology and resources empower every kind of educator — and
           every kind of student — to learn, create and define their own success.
           Let’s move the world forward.
         </p>

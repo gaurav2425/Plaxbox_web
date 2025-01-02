@@ -3,7 +3,7 @@ import styles from "../Components/LastContainer.module.css";
 function LastContainer() {
   return (
     <div className={styles.container}>
-      <h1>Plaxbox offer a more intimate and exclusive space</h1>
+      <h1>Tattle offer a more intimate and exclusive space</h1>
       <p>
         Private rooms and clubs can be created by any user, and can be set to be
         public or private. Public rooms and clubs are visible to everyone, while
@@ -15,9 +15,6 @@ function LastContainer() {
         src={require("../assets/discord.png")}
         className={styles.image}
       ></img>
-
-      <h2>Lets start journey</h2>
-      <button>Download For Windows</button>
     </div>
   );
 }

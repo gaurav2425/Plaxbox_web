@@ -6,23 +6,23 @@ import "aos/dist/aos.css";
 
 const scrollData = [
   {
-    heading: "Virtual Spaces of Same Interest",
+    heading: "Dive into spaces!",
     description:
-      "Clubs are virtual spaces within a chat application where users can gather to discuss a particular topic or interest. These clubs can be created by users or by the chat application itself, and they typically have a specific theme or focus. For example, a club might be dedicated to discussing a particular hobby, political issue, or entertainment genre. Users can join clubs that interest them and participate in conversations with other members",
+      "Our Interest-Based Cafes bring people together over shared passions and hobbies. Whether you’re a bookworm, movie buff, or fitness fanatic, there’s a cafe tailored to your vibe. Break the ice with meaningful conversations about what you love most and meet someone who gets you. Explore the joy of connection through mutual interests!",
     // mobile_img: "https://i.ibb.co/6Hhpk24/i-Phone-13-Pro.png",
-    mobile_img: "https://i.ibb.co/SrMs2Ld/i-Phone-13-Pro-2.png",
+    mobile_img: "https://i.ibb.co/xJBf57g/i-Mockup-i-Phone-15-Pro-Max-3.png",
   },
   {
-    heading: "seamless viewing experience,",
+    heading: "Celebrate your uniqueness! ",
     description:
-      "Watch TV shows together with friends application is a platform that allows users to watch their favorite TV shows and movies together with their friends in real-time, even if they are in different locations. The application typically provides a seamless and synchronized viewing experience, where users can watch the same video content simultaneously and engage in real-time chat, voice, or video communication.",
-    mobile_img: "https://i.ibb.co/Sy415W2/i-Phone-13-Pro-Front-2.png",
+      "Our Personality-Based Cafes are designed to bring out the best in you. Whether you're an introvert seeking deep conversations, an extrovert looking for lively interactions, or a creative mind eager to share ideas, there’s a space just for you. Connect with people who vibe with your energy and appreciate your true self. Dive in and let your personality shine!",
+    mobile_img: "https://i.ibb.co/jynrMmb/i-Mockup-i-Phone-15-Pro-Max.png",
   },
   {
-    heading: "connect people of the same interest",
+    heading: "Time-Limited Cafes",
     description:
-      "Once users sign up and provide their interests, the app will suggest potential matches based on their preferences. Users can then browse through the profiles of suggested matches and initiate conversations with those they are interested in connecting with. The app may also offer various features and tools to facilitate conversations and connections, such as discussion forums, chat rooms, and interest-based groups or clubs. Users can join these groups and connect with others who share their interests, discuss relevant topics, and participate in group activities.",
-    mobile_img: "https://i.ibb.co/k2L8zzC/i-Phone-13-Pro-3.png",
+      "Experience the thrill of exclusivity! Time-Limited Cafes are open for specific hours or days, creating a sense of urgency and excitement. Start your day with great conversations in the Morning Brews cafe, unwind after hours in the Night Owls' Den, or make the most of your weekend in the Weekend Wonders cafe. These fleeting moments make every interaction special—don’t miss your chance to connect!",
+    mobile_img: "https://i.ibb.co/1fZPCMn/i-Mockup-i-Phone-15-Pro-Max-1.png",
   },
   // {
   //   heading: "for your eclectic taste.",
