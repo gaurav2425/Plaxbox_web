@@ -5,6 +5,7 @@ import MobileScroll from "../Components/MobileScroll/MobileScroll";
 import LastContainer from "../Components/LastContainer";
 import Footer from "../Components/Footer";
 import styles from "../pages/Home.module.css";
+import SEO from "../Seo/SEO";
 // import ResNavbar from "../Components/ResNavbar";
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
   }, []);
   return (
     <div className="">
+      <SEO></SEO>
       {loading ? (
         <div className="App_loader">
           <img
