@@ -13,8 +13,9 @@ const SEO = () => {
       />
       <meta
         name="keywords"
-        content="dating app, Tattle Café, find love, matchmaking, online dating, secure dating, virtual cafés, relationships, singles near me"
+        content="dating app, Tattle Café, find love, matchmaking, online dating, secure dating, virtual cafés, relationships, singles near me, best dating app 2025, modern dating, serious relationships, local singles, relationship app, virtual dating platform, innovative matchmaking, online matchmaking, love and relationships, dating for professionals, unique dating features"
       />
+
       <meta name="author" content="Tattle Café" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
