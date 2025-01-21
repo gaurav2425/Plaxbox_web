@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import LastContainer from "./LastContainer";
+import { Button } from "@mui/material";
 
 function Container() {
   useEffect(() => {
@@ -15,14 +16,59 @@ function Container() {
     <div className={styles.container}>
       <div className={styles.bar}>
         <h1>
-          Discover millions of rooms, filled with fascinating and unexpected
-          conversations
+          Discover cafes filled with fascinating and unexpected conversations
         </h1>
       </div>
       <div className={styles.container1}>
         <div className={styles.left_container1_content}>
-          <h1>Meet Incridible</h1>
-          <h1>people on internet</h1>
+          <h1>Meet Incredible</h1>
+          <h1>people</h1>
+
+          <div
+            style={{
+              background: "#fff",
+              marginTop: 25,
+              paddingRight: 5,
+              paddingLeft: 15,
+              paddingTop: 5,
+              paddingBottom: 5,
+              borderRadius: 100,
+              flexDirection: "row",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            <h1
+              style={{
+                fontSize: 17,
+              }}
+            >
+              Get Started
+            </h1>
+            <div
+              style={{
+                padding: 15,
+                background: "#61204E",
+                borderRadius: 100,
+                marginLeft: 15,
+              }}
+            >
+              <svg
+                width="24"
+                height="14"
+                viewBox="0 0 24 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 14C16 13.258 16.733 12.15 17.475 11.22C18.429 10.02 19.569 8.973 20.876 8.174C21.856 7.575 23.044 7 24 7M24 7C23.044 7 21.855 6.425 20.876 5.826C19.569 5.026 18.429 3.979 17.475 2.781C16.733 1.85 16 0.740001 16 8.34465e-07M24 7L1.43051e-06 7"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+          </div>
+
           {/* <h2
             style={{
               color: "#000",
@@ -50,11 +96,20 @@ function Container() {
               <h3>Download Tattle</h3>
             </div>
           </Link> */}
-
-          <div className={styles.quote_container}>
-            {/* <h1>Meet Incridible people on internet and join their club</h1> */}
-          </div>
         </div>
+        {/* <div className={styles.banner_fade_bottom}>
+          <div
+            style={{
+              width: "200px",
+              height: "100px",
+              background: "#61204E",
+              right: 10,
+              position: "absolute",
+              bottom: 0,
+              borderRadius: 100,
+            }}
+          ></div>
+        </div> */}
       </div>
 
       <div className={styles.container2}>
@@ -111,7 +166,7 @@ function Container() {
           ></img>
         </div>
         <div className={styles.container5right}>
-          <h1 >
+          <h1>
             {/* data-aos="fade-up" */}
             Offer cafes that celebrate specific seasons or festivals
           </h1>

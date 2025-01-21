@@ -1,9 +1,24 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const [activeLink, setActiveLink] = useState("Home");
+  const navTabs = [
+    {
+      key: "Home",
+      route: "/",
+    },
+    {
+      key: "Mission",
+      route: "/about",
+    },
+    {
+      key: "Social",
+      route: "/social",
+    },
+  ];
   return (
     <div className={styles.navbar}>
       {/* <div className={styles.layer}></div> */}
@@ -16,19 +31,26 @@ function Navbar() {
 
       <div className={styles.navbar_right}>
         <ul>
-          <Link to="/" className={styles.link}>
-            <li>Home</li>
-          </Link>
-
-          <Link to="/about" className={styles.link}>
-            <li>Mission</li>
-          </Link>
-          {/* <Link to="/articles" className={styles.link}>
-            <li>Articles</li>
-          </Link> */}
-          <Link to="/social" className={styles.link}>
-            <li>Social</li>
-          </Link>
+          {navTabs?.map((tab, index) => {
+            return (
+              <Link
+                to={tab?.route}
+                onProgress={() => {
+                  setActiveLink(tab?.key);
+                }}
+                className={[tab?.key == activeLink ? styles.link : styles.link]}
+                key={index}
+              >
+                <li
+                  className={[
+                    tab?.key == activeLink ? styles.listlink : styles.link,
+                  ]}
+                >
+                  {tab?.key}
+                </li>
+              </Link>
+            );
+          })}
         </ul>
       </div>
 

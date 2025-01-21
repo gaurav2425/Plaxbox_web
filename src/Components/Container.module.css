@@ -11,26 +11,43 @@
   /* padding-top: 15vh; */
   overflow: hidden;
   /* padding-bottom: 100px; */
-  background-color: #070707;
+  background-color: #f6f4df;
 }
 .Link {
   outline: none;
 }
-
+.banner_fade_bottom {
+  width: 100%;
+  background-image: linear-gradient(
+    /* 180deg, */ transparent,
+    /* rgba(246, 244, 223, 0.3), */ rgba(246, 244, 223, 0.6),
+    rgba(246, 244, 223, 0.9),
+    /* rgba(246, 244, 223, 0.98), */ /* rgba(246, 244, 223, 0.92), */
+      /* rgba(246, 244, 223, 0.94), */ rgba(246, 244, 223, 0.96),
+    rgba(246, 244, 223, 0.98),
+    rgba(246, 244, 223, 1)
+  );
+  height: 10rem;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -20px;
+}
 .container1 {
   background-color: #070707;
   /* background-color: #f7fbcd; */
   background: url("../assets/pexels-george-chambers-413080139-29856367.jpg");
   background-size: cover;
 
-  height: 70vh;
+  height: 90vh;
+  /* justify-content: center; */
   /* justify-content: center; */
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  padding-top: 10vh;
+  /* padding-top: 10vh; */
   overflow-x: hidden;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
+  width: 100%;
 }
 .container1 h1 {
   font-family: "Poppins", sans-serif;
@@ -46,11 +63,11 @@
   flex-direction: column;
   display: flex;
   align-items: flex-start;
-  /* background-color: red; */
   margin-left: 2%;
+  margin-top: 5%;
 }
 .bar {
-  height: 50px;
+  height: 40px;
   background-color: #61204e;
   width: 100vw;
   text-align: center;
@@ -107,7 +124,7 @@
 .quote_container {
   /* background-color: aqua; */
   width: 100vw;
-  margin-top: 25vh;
+  /* margin-top: 25vh; */
 }
 
 .quote_container h1 {

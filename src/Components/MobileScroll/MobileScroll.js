@@ -6,23 +6,23 @@ import "aos/dist/aos.css";
 
 const scrollData = [
   {
-    heading: "Dive into spaces!",
+    heading: "Skip the Swipes, Start the Conversation!",
     description:
-      "Our Interest-Based Cafes bring people together over shared passions and hobbies. Whether you’re a bookworm, movie buff, or fitness fanatic, there’s a cafe tailored to your vibe. Break the ice with meaningful conversations about what you love most and meet someone who gets you. Explore the joy of connection through mutual interests!",
-    // mobile_img: "https://i.ibb.co/6Hhpk24/i-Phone-13-Pro.png",
-    mobile_img: "https://i.ibb.co/xJBf57g/i-Mockup-i-Phone-15-Pro-Max-3.png",
+      "Why waste weeks swiping when you can meet multiple potential matches in one evening? Our live speed dating events let you feel the chemistry instantly through real-time video interactions.",
+    mobile_img: "https://i.imghippo.com/files/CrD2066CxA.png",
+    // mobile_img: require("../../assets/home.png"),
   },
   {
-    heading: "Celebrate your uniqueness! ",
+    heading: "Join an Active Community",
     description:
-      "Our Personality-Based Cafes are designed to bring out the best in you. Whether you're an introvert seeking deep conversations, an extrovert looking for lively interactions, or a creative mind eager to share ideas, there’s a space just for you. Connect with people who vibe with your energy and appreciate your true self. Dive in and let your personality shine!",
-    mobile_img: "https://i.ibb.co/jynrMmb/i-Mockup-i-Phone-15-Pro-Max.png",
+      " Every member of TattleCafe is verified and actively participating. No more matching with abandoned profiles or inactive users – our community is alive and engaging",
+    mobile_img: "https://i.imghippo.com/files/xj7367vzQ.png",
   },
   {
     heading: "Time-Limited Cafes",
     description:
       "Experience the thrill of exclusivity! Time-Limited Cafes are open for specific hours or days, creating a sense of urgency and excitement. Start your day with great conversations in the Morning Brews cafe, unwind after hours in the Night Owls' Den, or make the most of your weekend in the Weekend Wonders cafe. These fleeting moments make every interaction special—don’t miss your chance to connect!",
-    mobile_img: "https://i.ibb.co/1fZPCMn/i-Mockup-i-Phone-15-Pro-Max-1.png",
+    mobile_img: "https://i.imghippo.com/files/CrD2066CxA.png",
   },
   // {
   //   heading: "for your eclectic taste.",
