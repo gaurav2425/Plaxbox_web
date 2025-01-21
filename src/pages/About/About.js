@@ -3,6 +3,7 @@ import styles from "../About/About.module.css";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
 import AboutBar from "../../Components/AboutBar";
+import SEO from "../../Seo/SEO";
 function About() {
   const data = [
     {
@@ -34,6 +35,7 @@ function About() {
   return (
     <div className={styles.about_container}>
       <Navbar></Navbar>
+      <SEO></SEO>
       <div className={styles.container1}>
         <div className={styles.container1_left}>
           <img src={require("../../assets/about_img.png")}></img>

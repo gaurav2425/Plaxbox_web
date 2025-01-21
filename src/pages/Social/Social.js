@@ -4,9 +4,11 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import styles from "../../pages/Social/Social.module.css";
 import Navbar from "../../Components/Navbar";
+import SEO from "../../Seo/SEO";
 function Social() {
   return (
     <div className={styles.social_container}>
+      <SEO></SEO>
       <Navbar></Navbar>
       <div className={styles.social_icons}>
         <InstagramIcon

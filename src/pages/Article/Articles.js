@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import ArticleLarge from "./ArticleLarge";
 import ArticleCard from "./ArticleCard";
 import Footer from "../../Components/Footer";
+import SEO from "../../Seo/SEO";
 
 function Articles() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function Articles() {
 
   return (
     <div className={styles.articles_page}>
+      <SEO></SEO>
       <Navbar></Navbar>
       <div className={styles.text_container}>
         <h1 className={styles.text1} data-aos="fade-up">
