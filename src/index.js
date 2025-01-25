@@ -3,11 +3,17 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
+import { HelmetProvider, Helmet } from "react-helmet-async";
 ReactDOM.render(
-  <React.StrictMode>
+  <HelmetProvider>
+    <Helmet>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charSet="UTF-8" />
+      <link rel="icon" href="/logo.ico" />
+    </Helmet>
+
     <App />
-  </React.StrictMode>,
+  </HelmetProvider>,
   document.getElementById("root")
 );
 
