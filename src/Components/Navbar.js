@@ -14,10 +14,10 @@ function Navbar() {
       key: "Mission",
       route: "/about",
     },
-    {
-      key: "Social",
-      route: "/social",
-    },
+    // {
+    //   key: "Social",
+    //   route: "/social",
+    // },
   ];
   return (
     <div className={styles.navbar}>
