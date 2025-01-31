@@ -35,7 +35,7 @@
 .container1 {
   background-color: #070707;
   /* background-color: #f7fbcd; */
-  background: url("../assets/pexels-george-chambers-413080139-29856367.jpg");
+  background: url("../assets/pexels-caleboquendo-3038145.jpg");
   background-size: cover;
 
   height: 90vh;
@@ -53,7 +53,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 90px;
-  color: #61204e;
+  color: #ffffff;
   /* color: rgb(0, 0, 0); */
   /* letter-spacing: -10; */
 }
@@ -64,7 +64,7 @@
   display: flex;
   align-items: flex-start;
   margin-left: 2%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .bar {
   height: 40px;
@@ -93,7 +93,7 @@
 .container1 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 20px;
 }
 

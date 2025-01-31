@@ -69,10 +69,12 @@
 }
 
 .screen-heading {
-  font-size: 105px;
+  font-size: 90px;
   font-weight: 700;
-  line-height: 105px;
+  line-height: 100px;
   color: #61204e;
+  width: 800;
+  /* background: red; */
 }
 
 .screen-description {

@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const scrollData = [
   {
-    heading: "Skip the Swipes, Start the Conversation!",
+    heading: "Skip the Swipes, Start Conversation!",
     description:
       "Why waste weeks swiping when you can meet multiple potential matches in one evening? Our live speed dating events let you feel the chemistry instantly through real-time video interactions.",
     mobile_img: "https://i.imghippo.com/files/CrD2066CxA.png",

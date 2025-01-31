@@ -23,7 +23,26 @@ function Container() {
         <div className={styles.left_container1_content}>
           <h1>Meet Incredible</h1>
           <h1>people</h1>
-
+          <div
+            style={{
+              width: 500,
+              color: "#000",
+            }}
+          >
+            <h2
+              style={{
+                color: "#fff",
+                // background: "#fff",
+                padding: 10,
+                borderRadius: 10,
+              }}
+            >
+              Hinge is built on the belief that anyone looking for love should
+              be able to find it. It’s also built on an acclaimed
+              Nobel-Prize-winning algorithm, so we can succeed in getting you
+              out on promising dates, not keeping you on the app. How we do it
+            </h2>
+          </div>
           <div
             style={{
               background: "#fff",
@@ -41,6 +60,7 @@ function Container() {
             <h1
               style={{
                 fontSize: 17,
+                color: "#000",
               }}
             >
               Get Started
