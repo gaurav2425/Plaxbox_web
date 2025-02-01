@@ -36,6 +36,7 @@
   background-color: #070707;
   /* background-color: #f7fbcd; */
   background: url("../assets/pexels-caleboquendo-3038145.jpg");
+
   background-size: cover;
 
   height: 100vh;
@@ -328,6 +329,15 @@
 }
 
 @media screen and (max-width: 600px) {
+  .container1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #ffffff;
+    /* color: rgb(0, 0, 0); */
+    /* letter-spacing: -10; */
+  }
+
   .bar h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -340,6 +350,16 @@
   }
   .bar {
     /* margin-top: 10px; */
+  }
+  .desc_banner {
+    font-size: 15px;
+    width: 80%;
+  }
+  .container1 {
+    background: url("https://i.ibb.co/RTYY69Yv/pexels-caleboquendo-30381452.jpg");
+
+    height: 100vh;
+    background-size: cover;
   }
 
   .container2 {
@@ -411,6 +431,9 @@
     font-size: 10px;
   }
 
+  .desc_banner {
+    display: none;
+  }
   .button_container {
     background-color: white;
     padding: 5px;

@@ -38,6 +38,7 @@ function Container() {
                 fontFamily: "poppins",
               }}
               data-aos="fade-up"
+              className={styles.desc_banner}
             >
               Hinge is built on the belief that anyone looking for love should
               be able to find it. It’s also built on an acclaimed

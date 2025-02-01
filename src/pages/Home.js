@@ -18,6 +18,7 @@ function Home() {
     }, 2000);
     return () => clearTimeout(timer);
   }, []);
+
   return (
     <div className="">
       <SEO></SEO>

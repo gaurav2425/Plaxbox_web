@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 import AOS from "aos";
-
+import DragHandleIcon from "@mui/icons-material/DragHandle";
 function Navbar() {
   const [activeLink, setActiveLink] = useState("Home");
   useEffect(() => {
@@ -64,7 +64,10 @@ function Navbar() {
       </div>
 
       <div className={styles.navbar_right_icon_container}>
-        <MenuIcon className={styles.navbar_menu_icon}></MenuIcon>
+        <DragHandleIcon
+          className={styles.navbar_menu_icon}
+          fontSize="large"
+        ></DragHandleIcon>
       </div>
     </div>
   );
