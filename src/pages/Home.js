@@ -7,6 +7,7 @@ import Footer from "../Components/Footer";
 import styles from "../pages/Home.module.css";
 import SEO from "../Seo/SEO";
 // import ResNavbar from "../Components/ResNavbar";
+import FooterNew from "../Components/FooterNew";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -14,7 +15,7 @@ function Home() {
     const timer = setTimeout(() => {
       console.log("This will run after 1 second!");
       setLoading(false);
-    }, 3000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, []);
   return (
@@ -31,10 +32,11 @@ function Home() {
         <div>
           <Navbar></Navbar>
           <Container></Container>
-          <MobileScroll></MobileScroll>
-          <LastContainer></LastContainer>
+          {/* <MobileScroll></MobileScroll>
+          <LastContainer></LastContainer> */}
 
-          <Footer></Footer>
+          {/* <Footer></Footer> */}
+          {/* <FooterNew></FooterNew> */}
         </div>
       )}
     </div>

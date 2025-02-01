@@ -14,34 +14,36 @@ function Container() {
   }, []);
   return (
     <div className={styles.container}>
-      <div className={styles.bar}>
+      {/* <div className={styles.bar}>
         <h1>
           Discover cafes filled with fascinating and unexpected conversations
         </h1>
-      </div>
+      </div> */}
       <div className={styles.container1}>
         <div className={styles.left_container1_content}>
-          <h1>Meet Incredible</h1>
-          <h1>people</h1>
+          <h1 data-aos="fade-up">Meet Incredible</h1>
+          <h1 data-aos="fade-up">people</h1>
           <div
             style={{
               width: 500,
               color: "#000",
             }}
           >
-            <h2
+            <p
               style={{
                 color: "#fff",
-                // background: "#fff",
                 padding: 10,
                 borderRadius: 10,
+                fontWeight: "500",
+                fontFamily: "poppins",
               }}
+              data-aos="fade-up"
             >
               Hinge is built on the belief that anyone looking for love should
               be able to find it. It’s also built on an acclaimed
               Nobel-Prize-winning algorithm, so we can succeed in getting you
               out on promising dates, not keeping you on the app. How we do it
-            </h2>
+            </p>
           </div>
           <div
             style={{

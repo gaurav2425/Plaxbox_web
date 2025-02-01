@@ -3,9 +3,9 @@
   width: 50px;
 }
 .navbar_right {
-  width: 80%;
+  /* width: 100%; */
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .layer {
@@ -28,11 +28,18 @@
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: #f6f4df;
+
+  background-color: transparent;
+  position: fixed;
   color: rgb(255, 255, 255);
   /* background-color: #f7fbcd; */
+  /* width: 100%; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
   /* justify-content: space-between; */
   /* width: 100%; */
+  /* border: 1px solid red; */
 }
 
 .navbar_left {
@@ -43,36 +50,39 @@
 }
 
 .navbar_left h1 {
-  margin-left: 10px;
+  margin: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 25px;
   font-family: Gilroy-Bold;
+  color: #fff;
 }
 
 .navbar_right ul {
   display: flex;
   flex-direction: row;
+  margin-left: 50px;
 }
 
 .navbar_right ul li {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   list-style: none;
   font-family: "Poppins", sans-serif;
   padding: 7px;
   padding-right: 15px;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 15px;
   font-size: 18px;
   border-bottom: 2px solid none;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   /* font-size: 15px; */
-  border-bottom: 2px solid #f6f4df;
+  /* border-bottom: 2px solid #f6f4df; */
+  color: #fff;
 }
 
 .listlink:hover {
-  margin-left: 50px;
+  /* margin-left: 50px;
   list-style: none;
   font-family: "Poppins", sans-serif;
   padding: 7px;
@@ -84,9 +94,8 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: rgb(255, 255, 255);
-  border-bottom: 2px solid #61204e;
   color: #61204e;
-  cursor: pointer;
+  cursor: pointer; */
 }
 
 .link {
@@ -112,31 +121,20 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
-  .navbar_right ul {
-    display: flex;
-    flex-direction: row;
-    margin-left: 10vw;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .navbar_right ul {
-    display: flex;
-    flex-direction: row;
-    margin-left: 0vw;
-  }
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .navbar_right ul {
     display: none;
   }
   .navbar_right_icon_container {
     display: block;
+    /* border: 1px solid red; */
+    margin-right: 20px;
   }
   .navbar {
     justify-content: space-between;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    padding-right: 20px;
   }
   .navbar_left h1 {
     font-size: 20px;
