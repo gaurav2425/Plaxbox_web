@@ -21,8 +21,17 @@ function Container() {
       </div> */}
       <div className={styles.container1}>
         <div className={styles.left_container1_content}>
-          <h1 data-aos="fade-up">Meet Incredible</h1>
-          <h1 data-aos="fade-up">people</h1>
+          <h1 data-aos="fade-up">
+            The <span>Cafe</span> &{" "}
+            <span
+              style={{
+                color: "#61204E",
+              }}
+            >
+              Audio
+            </span>
+          </h1>
+          <h1 data-aos="fade-up">Based Dating</h1>
           <div
             style={{
               width: 500,
@@ -40,13 +49,16 @@ function Container() {
               data-aos="fade-up"
               className={styles.desc_banner}
             >
-              Hinge is built on the belief that anyone looking for love should
-              be able to find it. It’s also built on an acclaimed
-              Nobel-Prize-winning algorithm, so we can succeed in getting you
-              out on promising dates, not keeping you on the app. How we do it
+              Tattle is built on the belief that real connections start with
+              real conversations. That’s why we’ve created a cafe-style,
+              audio-first dating experience—where voices spark chemistry, and
+              meaningful matches are made in minutes. No endless swiping, just
+              genuine interactions that bring you closer to someone special.
+              Here’s how we do it.
             </p>
           </div>
           <div
+            className={styles.get_started_btn}
             style={{
               background: "#fff",
               marginTop: 25,
@@ -91,59 +103,32 @@ function Container() {
               </svg>
             </div>
           </div>
-
-          {/* <h2
-            style={{
-              color: "#000",
-              background: "#fff",
-              padding: 10,
-              borderRadius: 10,
-            }}
-          >
-            Hinge is built on the belief that anyone looking for love should be
-            able to find it. It’s also built on an acclaimed Nobel-Prize-winning
-            algorithm, so we can succeed in getting you out on promising dates,
-            not keeping you on the app. How we do it
-          </h2> */}
-
-          {/* <Link
-            to="/commingsoon"
-            className={styles.link}
-            style={{ color: "black", textDecoration: "none" }}
-          >
-            <div className={styles.button_container} data-aos="flip-up">
-              <img
-                src={require("../assets/logo.png")}
-                className={styles.img}
-              ></img>
-              <h3>Download Tattle</h3>
-            </div>
-          </Link> */}
-        </div>
-        {/* <div className={styles.banner_fade_bottom}>
           <div
             style={{
-              width: "200px",
-              height: "100px",
-              background: "#61204E",
-              right: 10,
-              position: "absolute",
-              bottom: 0,
-              borderRadius: 100,
+              marginTop: "15%",
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
             }}
-          ></div>
-        </div> */}
+          >
+            <img
+              src={require("../assets/girls1.png")}
+              style={{
+                width: 300,
+              }}
+            ></img>
+          </div>
+        </div>
       </div>
 
       <div className={styles.container2}>
         <div className={styles.container2_left}>
           <h1>
-            {/* data-aos="fade-up" */}
             We’re love <br></br> scientists
           </h1>
-          {/* <h1 data-aos="zoom-in">your back.</h1> */}
+
           <h2>
-            {/* data-aos="fade-up" */}
             Clubs are virtual spaces within a chat application where users can
             gather to discuss a particular topic or interest. These clubs can be
             created by users or by the chat application itself, and they
@@ -156,9 +141,6 @@ function Container() {
             created by users or by the chat application, and they can be public
             or private.
           </h2>
-          {/* <h2 data-aos="zoom-in">
-            most exclusive rewards and cashbacks on . good luck.
-          </h2> */}
         </div>
 
         <div
@@ -189,10 +171,7 @@ function Container() {
           ></img>
         </div>
         <div className={styles.container5right}>
-          <h1>
-            {/* data-aos="fade-up" */}
-            Offer cafes that celebrate specific seasons or festivals
-          </h1>
+          <h1>Offer cafes that celebrate specific seasons or festivals</h1>
 
           <p>
             Rooms, on the other hand, are virtual spaces within a club or chat
