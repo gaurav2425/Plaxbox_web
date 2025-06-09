@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../About/About.module.css";
+import styles from "./About.module.css";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
 import AboutBar from "../../Components/AboutBar";

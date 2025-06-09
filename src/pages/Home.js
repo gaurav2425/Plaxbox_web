@@ -33,11 +33,11 @@ function Home() {
         <div>
           <Navbar></Navbar>
           <Container></Container>
-          {/* <MobileScroll></MobileScroll>
-          <LastContainer></LastContainer> */}
+          <MobileScroll></MobileScroll>
+          <LastContainer></LastContainer>
 
           {/* <Footer></Footer> */}
-          {/* <FooterNew></FooterNew> */}
+          <FooterNew></FooterNew>
         </div>
       )}
     </div>
